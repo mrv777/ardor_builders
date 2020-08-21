@@ -26,6 +26,7 @@
 		"mixitup": "^3.3.1"
 	},
 	"dependencies": {
+		"@fortawesome/fontawesome-free": "^5.14.0",
 		"jquery": "^3.5.1",
 		"theaterjs": "^3.2.0"
 	}

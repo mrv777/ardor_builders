@@ -13,8 +13,8 @@ let paths = {
 			'node_modules/jquery/dist/jquery.min.js', // npm vendor example (npm i --save-dev jquery)
 			'node_modules/theaterjs/dist/theater.min.js',
 			'node_modules/bootstrap/dist/js/bootstrap.min.js',
-			'node_modules/particlesjs/dist/particles.min.js',
 			'node_modules/mixitup/dist/mixitup.min.js',
+			'node_modules/@fortawesome/fontawesome-free/js/all.min.js',
 			baseDir + '/js/app.js' // app.js. Always at the end
 		],
 		dest: baseDir + '/js',
