@@ -1,0 +1,84 @@
+@import config
+
+.container
+	position: relative
+	z-index: 100
+
+.btn-group
+	width: 100%
+
+a 
+  color: #3c87c7
+
+a:hover
+  text-decoration: none
+
+// .card
+// 	height: 600px
+
+.badge
+	 position: absolute
+	right: 10px
+	border-radius: 4px
+	color: #fff
+	font-size: 0.8em
+	padding: .2em 0.75em
+
+.btn-primary.mixitup-control-active
+	background-color: #0e4e80
+	border-color: #0d4774
+.btn-dark.mixitup-control-active
+	background-color: #23272b
+	border-color: #1d2124
+
+.card, .modal
+  color: #222
+
+.row
+  padding-bottom: 15px
+
+#typewriter_text
+	min-height: 200px
+	margin: auto
+
+.stars, .twinkling, .clouds
+	position: absolute
+	display: block
+	top: 0
+	bottom: 0
+	left: 0 
+	right: 0
+	width: 100%
+	height: 100%
+
+
+.stars
+	z-index: 0
+	background: #1d222a url('../images/dest/stars.png') repeat top center
+
+
+.twinkling
+	z-index: 1
+	background: transparent url('../images/dest/twinkling.png') repeat top center
+	animation: move-twink-back 300s linear infinite
+
+@keyframes move-twink-back 
+	from 
+		background-position: 0 0
+	to
+		background-position: -10000px 5000px
+
+.is-typing::after
+  content: '|'
+  animation: blink 500ms infinite
+  color: #ffffff
+
+@keyframes blink
+  from 
+  	opacity: 0
+  to
+  	opacity: 1
+
+@media (max-width: 768px)
+  .col-md-4
+      padding-bottom: 15px
