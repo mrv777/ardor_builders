@@ -7,7 +7,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "MrV",
-	"license": "ISC",
+	"license": "AGPL",
 	"devDependencies": {
 		"bootstrap": "^4.5.1",
 		"browser-sync": "^2.26.12",
@@ -27,8 +27,6 @@
 	},
 	"dependencies": {
 		"jquery": "^3.5.1",
-		"particlesjs": "^2.2.3",
-		"theaterjs": "^3.2.0",
-		"vivus": "^0.4.5"
+		"theaterjs": "^3.2.0"
 	}
 }
